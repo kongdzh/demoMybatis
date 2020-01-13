@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="432e9ffc-b0ee-4e10-8b61-df967c5b923f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/Noname1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wonders/test/MybatisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/dao/IUserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wonders/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wonders/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wonders/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wonders/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wonders/dao/IUserDao.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,12 +126,35 @@
       <workItem from="1578384469282" duration="4379000" />
       <workItem from="1578449910568" duration="1500000" />
       <workItem from="1578622147893" duration="5533000" />
-      <workItem from="1578898267895" duration="6877000" />
+      <workItem from="1578898267895" duration="7616000" />
     </task>
+    <task id="LOCAL-00001" summary="xml方式">
+      <created>1578907220207</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578907220207</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="xml方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="xml方式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="72" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578902226796">
@@ -149,10 +169,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="659" y="435" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578899732732" />
-    <state x="0" y="117" key="CommitChangelistDialog2" timestamp="1578907169394">
+    <state x="0" y="117" key="CommitChangelistDialog2" timestamp="1578907218373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578907169394" />
+    <state x="0" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578907218373" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1578899741902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -165,30 +185,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="759" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578389883425" />
-    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1578907169411">
+    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1578907754419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578907169411" />
-    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1578907169411">
+    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578907754419" />
+    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1578907754419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578907169411" />
-    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1578907169410">
+    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578907754419" />
+    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1578907754418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578907169410" />
-    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1578907169411">
+    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578907754418" />
+    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1578907754419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578907169411" />
+    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578907754419" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1578389845038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578389845038" />
-    <state x="72" y="256" key="Vcs.Push.Dialog.v2" timestamp="1578907093427">
+    <state x="72" y="256" key="Vcs.Push.Dialog.v2" timestamp="1578907234830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578907093427" />
+    <state x="72" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578907234830" />
+    <state x="201" y="257" key="VcsDiffUtil.ChangesDialog" timestamp="1578907296585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="201" y="257" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578907296585" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1578898272499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
