@@ -1,4 +1,4 @@
-package dao;
+package com.wonders.dao;
 
 import com.wonders.domain.User;
 
