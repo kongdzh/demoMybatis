@@ -10,6 +10,16 @@ public class User implements Serializable {
     private Date birthday;
     private String sex;
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    private String address;
+
     public Integer getId() {
         return id;
     }
@@ -42,6 +52,7 @@ public class User implements Serializable {
         this.sex = sex;
     }
 
+
     @Override
     public String toString() {
         return "User{" +
@@ -49,6 +60,7 @@ public class User implements Serializable {
                 ", username='" + username + '\'' +
                 ", birthday=" + birthday +
                 ", sex='" + sex + '\'' +
+                ", address='" + address + '\'' +
                 '}';
     }
 }

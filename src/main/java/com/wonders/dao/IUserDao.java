@@ -10,6 +10,17 @@ public interface IUserDao {
     /**
      * 查询所有
      */
-    @Select("SELECT * FROM user;")
     List<User> findAll();
+
+    /**
+     * 保存
+     * @param user
+     */
+    void saveUser(User user);
+
+    /**
+     * 根据id更新
+     * @param user
+     */
+    void updateUser(User user);
 }

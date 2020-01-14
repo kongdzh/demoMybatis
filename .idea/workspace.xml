@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="432e9ffc-b0ee-4e10-8b61-df967c5b923f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/wonders/dao/IUserDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wonders/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wonders/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wonders/test/MybatisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/wonders/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wonders/dao/IUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wonders/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wonders/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wonders/test/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wonders/test/MybatisTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +29,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mybatis" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mybatis" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mybatis" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -76,7 +96,7 @@
       <recent name="D:\IdeaProjects\demoMybatis" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MybatisTest.testUpdateUser">
     <configuration name="MybatisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wonders.test.MybatisTest" />
       <module name="demoMybatis" />
@@ -90,8 +110,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MybatisTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoMybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wonders.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wonders.test" />
+      <option name="MAIN_CLASS_NAME" value="com.wonders.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testSaveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoMybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wonders.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wonders.test" />
+      <option name="MAIN_CLASS_NAME" value="com.wonders.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testSaveUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testUpdateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoMybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wonders.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wonders.test" />
+      <option name="MAIN_CLASS_NAME" value="com.wonders.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testUpdateUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisTest.testUpdateUser" />
+        <item itemvalue="JUnit.MybatisTest.testSaveUser" />
+        <item itemvalue="JUnit.MybatisTest.testFindAll" />
         <item itemvalue="Application.MybatisTest" />
       </list>
     </recent_temporary>
@@ -101,12 +172,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:mybatis" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -144,9 +210,36 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -161,10 +254,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="72" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578902226796" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1578387024623">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1578992379955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578387024623" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578992379955" />
     <state x="659" y="435" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578899732732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -173,6 +266,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578907218373" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1578992566266">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578992566266" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1578899741902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -185,22 +282,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="759" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578389883425" />
-    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1578907754419">
+    <state width="1877" height="603" key="GridCell.Tab.0.bottom" timestamp="1578994562996">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578907754419" />
-    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1578907754419">
+    <state width="1877" height="603" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578994562996" />
+    <state width="1877" height="603" key="GridCell.Tab.0.center" timestamp="1578994562995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578907754419" />
-    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1578907754418">
+    <state width="1877" height="603" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578994562995" />
+    <state width="1877" height="603" key="GridCell.Tab.0.left" timestamp="1578994562995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578907754418" />
-    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1578907754419">
+    <state width="1877" height="603" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578994562995" />
+    <state width="1877" height="603" key="GridCell.Tab.0.right" timestamp="1578994562995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578907754419" />
+    <state width="1877" height="603" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578994562995" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1578389845038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
