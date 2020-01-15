@@ -1,6 +1,7 @@
 package com.wonders.test;
 
 import com.wonders.dao.IUserDao;
+import com.wonders.domain.QueryVo;
 import com.wonders.domain.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -77,5 +78,32 @@ public class MybatisTest {
 
         userDao.updateUser(user);
         System.out.println(user);
+    }
+
+    @Test
+    public void testDeleteUser(){
+        userDao.deleteUser(43);
+    }
+
+    @Test
+    public void testFindByName(){
+        List<User> users = userDao.findByName("%王%");
+        for (User user: users) {
+            System.out.println(user);
+        }
+    }
+
+    @Test
+    public void testFindUserByVo(){
+        QueryVo queryVo = new QueryVo();
+        User user = new User();
+
+        user.setUsername("kongdezhi");
+        queryVo.setUser(user);
+
+        List<User> users = userDao.findUserByVo(queryVo);
+        for (User u: users) {
+            System.out.println(u);
+        }
     }
 }

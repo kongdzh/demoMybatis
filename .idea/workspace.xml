@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="432e9ffc-b0ee-4e10-8b61-df967c5b923f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/wonders/dao/IUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wonders/domain/QueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wonders/domain/QueryVo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/dao/IUserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wonders/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wonders/dao/IUserDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/wonders/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wonders/test/MybatisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/wonders/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wonders/dao/IUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wonders/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wonders/dao/IUserDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/wonders/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wonders/domain/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/wonders/test/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wonders/test/MybatisTest.class" afterDir="false" />
     </list>
@@ -87,18 +88,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/wonders" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wonders.domain" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\demoMybatis\src\main\resources" />
       <recent name="D:\IdeaProjects\demoMybatis\doc" />
       <recent name="D:\IdeaProjects\demoMybatis" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.testUpdateUser">
-    <configuration name="MybatisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wonders.test.MybatisTest" />
+  <component name="RunManager" selected="JUnit.MybatisTest.testFindAll">
+    <configuration name="MybatisTest.testDeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoMybatis" />
       <extension name="coverage">
         <pattern>
@@ -106,6 +109,10 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.wonders.test" />
+      <option name="MAIN_CLASS_NAME" value="com.wonders.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testDeleteUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,7 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.testSaveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTest.testFindByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoMybatis" />
       <extension name="coverage">
         <pattern>
@@ -136,7 +143,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.wonders.test" />
       <option name="MAIN_CLASS_NAME" value="com.wonders.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testSaveUser" />
+      <option name="METHOD_NAME" value="testFindByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testFindUserByVo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoMybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wonders.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wonders.test" />
+      <option name="MAIN_CLASS_NAME" value="com.wonders.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testFindUserByVo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,10 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest.testUpdateUser" />
-        <item itemvalue="JUnit.MybatisTest.testSaveUser" />
         <item itemvalue="JUnit.MybatisTest.testFindAll" />
-        <item itemvalue="Application.MybatisTest" />
+        <item itemvalue="JUnit.MybatisTest.testFindUserByVo" />
+        <item itemvalue="JUnit.MybatisTest.testFindByName" />
+        <item itemvalue="JUnit.MybatisTest.testDeleteUser" />
+        <item itemvalue="JUnit.MybatisTest.testUpdateUser" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +217,8 @@
       <workItem from="1578449910568" duration="1500000" />
       <workItem from="1578622147893" duration="5533000" />
       <workItem from="1578898267895" duration="7616000" />
+      <workItem from="1579053310055" duration="9565000" />
+      <workItem from="1579070682559" duration="2648000" />
     </task>
     <task id="LOCAL-00001" summary="xml方式">
       <created>1578907220207</created>
@@ -201,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578907220207</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="xml CRUD">
+      <created>1578994646248</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578994646248</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,25 +280,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xml方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="xml方式" />
+    <MESSAGE value="xml CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="xml CRUD" />
   </component>
   <component name="WindowStateProjectService">
     <state x="72" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578902226796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="72" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578902226796" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1578992379955">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1579056611865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578992379955" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579056611865" />
+    <state x="779" y="210" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1579070864623">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="779" y="210" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579070864623" />
     <state x="659" y="435" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578899732732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="659" y="435" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578899732732" />
-    <state x="0" y="117" key="CommitChangelistDialog2" timestamp="1578907218373">
+    <state x="0" y="117" key="CommitChangelistDialog2" timestamp="1578994644839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578907218373" />
+    <state x="0" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578994644839" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1578992566266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -282,37 +320,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="759" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578389883425" />
-    <state width="1877" height="603" key="GridCell.Tab.0.bottom" timestamp="1578994562996">
+    <state width="1877" height="603" key="GridCell.Tab.0.bottom" timestamp="1579072853998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="603" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578994562996" />
-    <state width="1877" height="603" key="GridCell.Tab.0.center" timestamp="1578994562995">
+    <state width="1877" height="603" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579072853998" />
+    <state width="1877" height="603" key="GridCell.Tab.0.center" timestamp="1579072853998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="603" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578994562995" />
-    <state width="1877" height="603" key="GridCell.Tab.0.left" timestamp="1578994562995">
+    <state width="1877" height="603" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579072853998" />
+    <state width="1877" height="603" key="GridCell.Tab.0.left" timestamp="1579072853998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="603" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578994562995" />
-    <state width="1877" height="603" key="GridCell.Tab.0.right" timestamp="1578994562995">
+    <state width="1877" height="603" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579072853998" />
+    <state width="1877" height="603" key="GridCell.Tab.0.right" timestamp="1579072853998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="603" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578994562995" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1578389845038">
+    <state width="1877" height="603" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579072853998" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1579070645283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578389845038" />
-    <state x="72" y="256" key="Vcs.Push.Dialog.v2" timestamp="1578907234830">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579070645283" />
+    <state x="72" y="256" key="Vcs.Push.Dialog.v2" timestamp="1578994675100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578907234830" />
+    <state x="72" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578994675100" />
     <state x="201" y="257" key="VcsDiffUtil.ChangesDialog" timestamp="1578907296585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="201" y="257" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578907296585" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1578898272499">
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1579070697867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578898272499" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579070697867" />
   </component>
 </project>

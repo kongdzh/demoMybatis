@@ -9,6 +9,7 @@ public class User implements Serializable {
     private String username;
     private Date birthday;
     private String sex;
+    private String address;
 
     public String getAddress() {
         return address;
@@ -17,8 +18,6 @@ public class User implements Serializable {
     public void setAddress(String address) {
         this.address = address;
     }
-
-    private String address;
 
     public Integer getId() {
         return id;
