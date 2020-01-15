@@ -44,4 +44,11 @@ public interface IUserDao {
      * @return
      */
     List<User> findUserByVo(QueryVo queryVo);
+
+    /**
+     * 根据传入的参数条件查询
+     * @param user user可能有可能没有相关属性
+     * @return
+     */
+    List<User> findUserByCondition(User user);
 }

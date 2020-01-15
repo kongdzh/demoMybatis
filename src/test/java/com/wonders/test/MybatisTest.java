@@ -106,4 +106,16 @@ public class MybatisTest {
             System.out.println(u);
         }
     }
+
+    @Test
+    public void testFindUserByCondition(){
+        User user = new User();
+        user.setAddress("汤臣一品");
+        user.setUsername("kongdezhi");
+
+        List<User> users = userDao.findUserByCondition(user);
+        for (User u: users) {
+            System.out.println(u);
+        }
+    }
 }

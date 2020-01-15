@@ -42,4 +42,17 @@
     <select id="findUserByVo" parameterType="com.wonders.domain.QueryVo" resultType="com.wonders.domain.User">
         select * from user where username like #{user.username};
     </select>
+
+    <!--根据不同查询条件查询-->
+    <select id="findUserByCondition" resultMap="userMap" parameterType="com.wonders.domain.User">
+        select * from user
+        <where>
+            <if test="username != null">
+                and username = #{username}
+            </if>
+            <if test="address != null">
+                and address = #{address}
+            </if>
+        </where>
+    </select>
 </mapper>
