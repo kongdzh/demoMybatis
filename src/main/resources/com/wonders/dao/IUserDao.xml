@@ -44,7 +44,7 @@
     </select>
 
     <!--根据不同查询条件查询-->
-    <select id="findUserByCondition" resultMap="userMap" parameterType="com.wonders.domain.User">
+    <select id="findUserByCondition" resultMap="userMap" parameterType="user">
         select * from user
         <where>
             <if test="username != null">
@@ -52,6 +52,17 @@
             </if>
             <if test="address != null">
                 and address = #{address}
+            </if>
+        </where>
+    </select>
+
+    <select id="findUserByIds" resultMap="userMap" parameterType="queryVo">
+        select * from user
+        <where>
+            <if test="ids != null and ids.size() > 0">
+                <foreach collection="ids" open="and id in (" close=")" item="id" separator=",">
+                    #{id}
+                </foreach>
             </if>
         </where>
     </select>

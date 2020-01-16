@@ -51,4 +51,11 @@ public interface IUserDao {
      * @return
      */
     List<User> findUserByCondition(User user);
+
+    /**
+     * 根据查询条件中的id列表查询
+     * @param queryVo
+     * @return
+     */
+    List<User> findUserByIds(QueryVo queryVo);
 }

@@ -14,6 +14,7 @@ import org.junit.Test;
 import javax.annotation.Resource;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -115,6 +116,22 @@ public class MybatisTest {
 
         List<User> users = userDao.findUserByCondition(user);
         for (User u: users) {
+            System.out.println(u);
+        }
+    }
+
+    @Test
+    public void testFindUserByIds(){
+        QueryVo queryVo = new QueryVo();
+        List<Integer> ids = new ArrayList<Integer>();
+        ids.add(41);
+        ids.add(42);
+
+        queryVo.setIds(ids);
+
+        List<User> users = userDao.findUserByIds(queryVo);
+        for (User u :
+                users) {
             System.out.println(u);
         }
     }

@@ -5,6 +5,14 @@
 
 <!-- mybatis主配置 -->
 <configuration>
+    <!--  别名  -->
+    <typeAliases>
+        <!--第一种-->
+        <!--<typeAlias type="cn.dawn.demo01.entity.Book" alias="book"></typeAlias>-->
+        <!--第二种-->
+        <package name="com.wonders.domain"></package>
+    </typeAliases>
+
     <!--  配置环境  -->
     <environments default="mysql">
         <!--   mysql的环境     -->
